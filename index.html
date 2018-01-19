@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add new movie</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <img scr="/images/projector-logo.png">
+    </header>
+    <body>
+        <form class="add_movie_form" id="add_movie_form">
+            <h1>Add a new movie</h1>
+            <label for="name">Movie name</label>
+            <input type="text" name="name"/>
+            <label for="release year">Release year</label>
+            <input type="text" name="release year"/>
+            <div class="divide">
+            <label for="language">Language</label>
+            <select name="language">
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="malayalam">malayalam</option>
+            </select>
+            </div>
+            <div class="divide">
+            <label for="ratings">Ratings</label>
+            <select name="ratings">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+            </select>
+            </div>
+            <label for="thumbnailurl">Thumbnailurl</label>
+            <input type="url" name="thumbnailurl"/>
+            <label for="plot">Plot</label>
+            <textarea rows="5" name="plot"></textarea>
+            <label for="posterurl">Posterurl</label>
+            <input type="url" name="poeterurl"/>
+            <label for="cast">Cast</label>
+            <textarea rows="5" name="cast"></textarea>
+            <input type="submit" value="save"> 
+        </form>
+    </body>
+</html>
